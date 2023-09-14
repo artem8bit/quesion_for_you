@@ -1,0 +1,95 @@
+/**
+ * Body CSS
+ */
+
+html,
+body {
+	height: 100%;
+	background-color: #010409;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+/**
+  * Sidebar CSS
+  */
+
+#sidebar {
+	background-color: #0d1117;
+	padding: 30px;
+	color: #fff;
+}
+
+@media (min-width: 768px) {
+	#sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 150px;
+		height: 100%;
+		padding-top: 30px;
+	}
+}
+
+/**
+  * Content CSS
+  */
+#content {
+	background-color: #010409;
+	color: #ffffff;
+}
+
+@media (min-width: 768px) {
+	#content {
+		margin-left: 200px;
+	}
+}
+
+.author {
+	font-size: 0.8rem;
+	color: rgb(139, 139, 139);
+}
+
+#question-input{
+	color: #fff;
+}
+
+.floating-btn {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	background-color: black;
+}
+
+.modal {
+	max-width: 600px;
+	max-height: 300px;
+	margin: 100px auto;
+	overflow-y: auto;
+	background: #ffffffeb;
+	border-radius: 12px;
+}
+
+.modal > h1 {
+	text-align: center;
+}
+
+.modal .modal-content {
+	padding: 1rem;
+}
+
+#modal-btn {
+	background: #ffffff;
+}
+
+.error {
+	color: rgb(255, 0, 0);
+}
